@@ -41,6 +41,10 @@ For further info see on OpenWhisk and wskdeploy see:
 - [OpenWhisk](https://github.com/apache/incubator-openwhisk)
 - [Whisk Deploy](https://github.com/apache/incubator-openwhisk-wskdeploy)
 
+After deploying, you may use the provided request.json to see if it
+works, e.g.:
+`wsk action invoke anonymizer_demo/anonymizer -r -P request.json`
+
 ## Contributing
 If you want to contribute functions to the store, simply add them to the
 functions folder and store.json file.
@@ -57,7 +61,7 @@ also be stored under the :data key.
 
 For example, an `anonymizer.js` that replaces all string's characters
 with *, would look like this:
-```
+```javascript
 // demo yappl transformation function
 // signature: transformation: { data: x } -> { data: x' }
 
@@ -74,14 +78,21 @@ The function should be put into a subfolder of the functions folder:
 `functions/anonymizer/anonymizer.js` and should also include a sample
 wskdeploy manifest file:
 ```yaml
-actions:
-  anonymizer:
-  function: anonymizer.js
+packages:
+  anonymizer_demo:
+    actions:
+      anonymizer:
+        function: anonymizer.js
+```
+
+Also add a demo request.json, like:
+```json
+{ "data": "some string" }
 ```
 
 Lastly, add your function to the `store.json` file. The expected data
 here is:
-```
+```json
 {
   "functions": [
     ...,

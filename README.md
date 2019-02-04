@@ -103,7 +103,7 @@ here is:
       "compatibility": ["string"],
       "image_url": "http://link_to_pretty_image.com/image.png",
       "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/anonymizer",
-      "code_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/anonymizer/anonymizer.js"
+      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/anonymizer/anonymizer.js"
     }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "functions": [
+    {
+      "name": "anonymizer",
+      "description": "This function replaces all string's characters with *",
+      "compatibility": ["string"],
+      "author": "tpei",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/1200px-Anonymous_emblem.svg.png",
+      "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/anonymizer",
+      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/anonymizer/anonymizer.js"
+    },
+    {
+      "name": "none",
+      "description": "This function does not make any changes to the given data... Basically an echo",
+      "compatibility": ["object"],
+      "author": "tpei",
+      "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/none",
+      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/none/none.js"
+    },
+    {
+      "name": "only_provider",
+      "description": "This function returns prover.tld from an email.",
+      "compatibility": ["string"],
+      "author": "tpei",
+      "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/only_provider",
+      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/only_provider/only_provider.js"
+    },
+    {
+      "name": "hourly_average",
+      "description": "Returns averages aggregated by hour",
+      "compatibility": ["timeseries"],
+      "author": "TU Berlin",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/BahnhofsuhrZuerich_RZ.jpg/220px-BahnhofsuhrZuerich_RZ.jpg",
+      "repo_link": "",
+      "code_link": ""
+    },
+    {
+      "name": "hourly_min_max",
+      "description": "Returns min/max aggregated by hour",
+      "compatibility": ["timeseries"],
+      "author": "TU Berlin",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/BahnhofsuhrZuerich_RZ.jpg/220px-BahnhofsuhrZuerich_RZ.jpg",
+      "repo_link": "",
+      "code_link": ""
+    },
+    {
+      "name": "hourly_medians",
+      "description": "Returns medians aggregated by hour",
+      "compatibility": ["timeseries"],
+      "author": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/BahnhofsuhrZuerich_RZ.jpg/220px-BahnhofsuhrZuerich_RZ.jpg",
+      "image_url": "",
+      "repo_link": "",
+      "code_link": ""
+    },
+    {
+      "name": "median",
+      "description": "Returns median of an array",
+      "compatibility": ["array(number)", "array(boolean)", "array(string)"] ,
+      "author": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Comparison_mean_median_mode.svg/300px-Comparison_mean_median_mode.svg.png",
+      "repo_link": "",
+      "code_link": ""
+    }
+  ]
+}

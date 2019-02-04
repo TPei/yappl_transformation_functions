@@ -1,0 +1,5 @@
+packages:
+  none_demo:
+    actions:
+      none:
+        function: none.js

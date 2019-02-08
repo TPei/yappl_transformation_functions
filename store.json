@@ -5,6 +5,7 @@
       "description": "This function replaces all string's characters with *",
       "compatibility": ["string"],
       "author": "tpei",
+      "runtime": "nodejs",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/1200px-Anonymous_emblem.svg.png",
       "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/anonymizer",
       "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/anonymizer/anonymizer.js"
@@ -14,6 +15,7 @@
       "description": "This function does not make any changes to the given data... Basically an echo",
       "compatibility": ["object"],
       "author": "tpei",
+      "runtime": "nodejs",
       "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/none",
       "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/none/none.js"
     },
@@ -22,6 +24,7 @@
       "description": "This function returns prover.tld from an email.",
       "compatibility": ["string"],
       "author": "tpei",
+      "runtime": "nodejs",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%28at%29.svg/220px-%28at%29.svg.png",
       "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/only_provider",
       "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/only_provider/only_provider.js"

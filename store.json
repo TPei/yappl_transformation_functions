@@ -12,7 +12,7 @@
     },
     {
       "name": "ruby_anonymizer",
-      "description": "This function replaces all string's characters with *, same as anonymizer but slower ¯\_(ツ)_/¯",
+      "description": "This function replaces all string's characters with *, same as anonymizer but slower... xD",
       "compatibility": ["string"],
       "author": "tpei",
       "runtime": "ruby:2.5",

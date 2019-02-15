@@ -1,0 +1,5 @@
+packages:
+  hourly_medians_demo:
+    actions:
+      hourly_medians:
+        function: hourly_medians.rb

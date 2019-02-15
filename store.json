@@ -31,7 +31,7 @@
     },
     {
       "name": "only_provider",
-      "description": "This function returns prover.tld from an email.",
+      "description": "This function returns provider.tld from an email.",
       "compatibility": ["string"],
       "author": "tpei",
       "runtime": "nodejs:default",

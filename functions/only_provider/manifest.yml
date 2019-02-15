@@ -2,4 +2,4 @@ packages:
   only_provider_demo:
     actions:
       only_provider:
-        function: only_prover.js
+        function: only_provider.js

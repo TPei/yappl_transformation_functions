@@ -1,0 +1,5 @@
+packages:
+  hourly_averages_demo:
+    actions:
+      hourly_averages:
+        function: hourly_averages.rb

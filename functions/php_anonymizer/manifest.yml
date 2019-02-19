@@ -1,0 +1,5 @@
+packages:
+  anonymizer_demo:
+    actions:
+      anonymizer:
+        function: anonymizer.php

@@ -18,5 +18,5 @@ def filter(params)
 end
 
 def anonymize(data)
-  { data: '*' * data.length }
+  '*' * data.length
 end

@@ -2,12 +2,12 @@ require 'json'
 require 'time'
 
 def main(params)
-  return { data: params.data.map { |ele| filter(ele) } }
+  return { data: params['data'].map { |ele| filter(ele) } }
 end
 
 def filter(params)
   updated_params = params
-  actions = params.actions
+  actions = params['actions']
   actions.each do |action|
     name = action.keys.first # there's only one
     field = action[name]

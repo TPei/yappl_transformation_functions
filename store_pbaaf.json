@@ -9,7 +9,7 @@
       "runtime": "nodejs:10",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/1200px-Anonymous_emblem.svg.png",
       "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/anonymizer",
-      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/anonymizer/anonymizer.js"
+      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/anonymizer/pbaaf.js"
     },
     {
       "name": "ruby_anonymizer",
@@ -20,29 +20,7 @@
       "runtime": "ruby:2.5",
       "image_url": "https://www.ruby-lang.org/images/header-ruby-logo.png",
       "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/ruby_anonymizer",
-      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/ruby_anonymizer/anonymizer.rb"
-    },
-    {
-      "name": "php_anonymizer",
-      "short_description": "replaces chars with *",
-      "description": "This function replaces all string's characters with *, same as anonymizer but php... xD",
-      "compatibility": ["string"],
-      "author": "tpei",
-      "runtime": "php:7.3",
-      "image_url": "http://php.net/images/logos/new-php-logo.png",
-      "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/php_anonymizer",
-      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/php_anonymizer/anonymizer.php"
-    },
-    {
-      "name": "swift_anonymizer",
-      "short_description": "replaces chars with *",
-      "description": "This function replaces all string's characters with *, same as anonymizer but swift",
-      "compatibility": ["string"],
-      "author": "tpei",
-      "runtime": "swift:default",
-      "image_url": "https://developer.apple.com/swift/images/swift-og.png",
-      "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/swift_anonymizer",
-      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/swift_anonymizer/anonymizer.swift"
+      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/ruby_anonymizer/pbaaf.rb"
     },
     {
       "name": "none",
@@ -52,7 +30,7 @@
       "author": "tpei",
       "runtime": "nodejs:default",
       "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/none",
-      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/none/none.js"
+      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/none/pbaaf.js"
     },
     {
       "name": "only_provider",
@@ -63,7 +41,7 @@
       "runtime": "nodejs:default",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%28at%29.svg/220px-%28at%29.svg.png",
       "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/only_provider",
-      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/only_provider/only_provider.js"
+      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/only_provider/pbaaf.js"
     },
     {
       "name": "hourly_averages",
@@ -73,7 +51,7 @@
       "author": "tpei",
       "runtime": "ruby:2.5",
       "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/hourly_averages",
-      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/hourly_averages/hourly_averages.rb"
+      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/hourly_averages/pbaaf.rb"
     },
     {
       "name": "hourly_medians",
@@ -83,7 +61,7 @@
       "author": "tpei",
       "runtime": "ruby:2.5",
       "repo_link": "https://github.com/TPei/yappl_transformation_functions/tree/master/functions/hourly_medians",
-      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/hourly_medians/hourly_medians.rb"
+      "code_link": "https://raw.githubusercontent.com/TPei/yappl_transformation_functions/master/functions/hourly_medians/pbaaf.rb"
     }
   ]
 }

@@ -1,0 +1,5 @@
+packages:
+  average_demo:
+    actions:
+      average:
+        function: average.js

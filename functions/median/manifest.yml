@@ -1,0 +1,5 @@
+packages:
+  median_demo:
+    actions:
+      median:
+        function: median.rb

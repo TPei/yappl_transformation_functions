@@ -1,0 +1,5 @@
+packages:
+  sum_demo:
+    actions:
+      sum:
+        function: sum.js

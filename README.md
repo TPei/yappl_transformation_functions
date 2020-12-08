@@ -25,7 +25,7 @@ available to the world.
 Yappl allows for specifying things like:
 "My *email* may be used for purpose p and utilizer u, but only if the
 transformation *only_provider* is applied.
-*ony_provider* would then be a tranformation functions that accepts an
+*only_provider* would then be a tranformation function that accepts an
 email address as input and returns only the provider, not the actual
 email address.
 
